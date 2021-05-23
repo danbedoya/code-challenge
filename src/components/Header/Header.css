@@ -1,0 +1,53 @@
+.header{
+    place-items: center;
+    background: #cccccc;
+    text-align: center;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.image__container > img{
+    object-fit: contain;
+    max-height: 80px;
+    margin: auto;
+    padding-bottom: 15%;
+}
+
+.search__container > form{
+    margin: auto;
+    width: 100%;    
+}
+
+.search__container > form > input {
+        border: none;
+        outline: none; 
+        width: 100%;     
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 800;
+}
+
+.search__container > input {
+    outline-width: 0;
+    font-size: medium;
+    background-color:white;
+    cursor: pointer;
+}
+.search__container{
+    display: flex;
+    width: 50%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.24);
+}
+
+.search__container > .MuiSvgIcon-root{
+    color: grey;
+}
+.error{
+    margin-top: 10px;
+}

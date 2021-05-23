@@ -1,0 +1,19 @@
+
+.gists{
+    display: block;
+    overflow: scroll;
+    background-color: #cccccc;
+}
+.gists::-webkit-scrollbar{
+    display: none;
+}
+
+.gists{
+    margin-top: 10px;
+}
+
+.gists__lists {
+    text-align: center;
+    padding: 30px;
+}
+

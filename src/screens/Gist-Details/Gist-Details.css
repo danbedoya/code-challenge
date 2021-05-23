@@ -1,0 +1,45 @@
+.gistDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.files{
+    margin-top: 20px;
+}
+.card{
+    padding: 45px;
+}
+.file__avatar{
+    margin-top:30px;
+    display: flex;
+    padding: 0 5px 0 0;
+}
+.file__avatar > p {
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.file__raw_url{
+    padding: 5px;
+    cursor: pointer;
+}
+.gistDetails__description{
+    font-weight: bold;
+}
+.return{
+    display: flex;
+    padding: 0;
+    text-decoration: none;
+    margin-bottom: 20px;
+    
+}
+.return__description{
+    padding-left: 10px;
+}
+.link{
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+
+
